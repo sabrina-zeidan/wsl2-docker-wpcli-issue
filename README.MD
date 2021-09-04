@@ -26,7 +26,7 @@ _I tried 2 ways to achieve this, both are getting me closer but still not there.
 <br /> 
 ### Way #1 not named volumes, WP installation in the directory where docker-compose.yml is located
 
-docker-compose.yml for this  
+docker-compose.yml for this  https://github.com/sabrina-zeidan/wsl2-docker-wpcli-issue/blob/main/docker-compose-not-named-volumes.yml
 
 **Why it doesn’t work:**
 
