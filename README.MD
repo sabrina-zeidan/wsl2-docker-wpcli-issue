@@ -1,5 +1,5 @@
 ## **My heart’s desire:** 
-access WPCLI functions in WordPress docker in Ubuntu 
+access WP-CLI functions in WordPress docker in Ubuntu 
 <br /> 
 ### Environment: 
 Windows 10 Home with Hyper-V enabled; WSL2; Docker Desktop with WLS support enabled; Ubuntu 20.04
