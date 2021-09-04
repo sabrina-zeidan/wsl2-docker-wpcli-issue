@@ -26,7 +26,7 @@ _I tried 2 ways to achieve this, both are getting me closer but still not there.
 <br /> 
 ### Way #1 not named volumes, WP installation in the directory where docker-compose.yml is located
 
-Docker-compose for this: 
+docker-compose.yml for this  
 
 **Why it doesn’t work:**
 
@@ -35,8 +35,8 @@ I believe that not named volumes, though having the same location don’t get bu
 <br /> 
 ### Way #2: named volumes, WP installation god knows where
 
-Docker-compose for this: 
-
+docker-compose.yml for this: https://github.com/sabrina-zeidan/wsl2-docker-wpcli-issue/blob/main/docker-compose-named-volumes.yml
+ 
 **Why it doesn’t work:**
 
 This seems like it should work in the end. The problem I encountered here is that** I just can’t navigate to WP installation folder in Ubuntu.**
