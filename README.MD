@@ -9,7 +9,7 @@ Windows 10 Home with Hyper-V enabled; WSL2; Docker Desktop with WLS support enab
 * I need to pass the same variables to WPCLI as to WP (changes from March 2021 [here](https://hub.docker.com/_/wordpress)) 
 * Ubuntu user has to be specified for WPCLI [https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml](https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml)   
 ### Result so far:
-
+![unnamed](https://user-images.githubusercontent.com/5646904/132088875-1847fec1-cf75-4260-bf3a-1c5883b644d2.png)
 $ docker-compose up -d 
 
 Then in WP root:
