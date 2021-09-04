@@ -2,7 +2,7 @@
 access WP-CLI functions in WordPress docker in Ubuntu 
 <br /> 
 ### Environment: 
-Windows 10 Home with Hyper-V enabled; WSL2; Docker Desktop with WLS support enabled; Ubuntu 20.04
+Windows 10 Home with Hyper-V enabled; WSL2; Docker Desktop with WSL2 support enabled; Ubuntu 20.04
 <br /> 
 ### To achieve this (as far as my understanding):
 * WP and WPCLI should be sharing the same volume, and the same network
