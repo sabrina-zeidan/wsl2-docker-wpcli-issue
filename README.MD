@@ -44,6 +44,7 @@ This seems like it should work in the end. The problem I encountered here is tha
 In WSL2 containers are not accessible from ubuntu by default, they can be located in Windows but not in Ubuntu \
 This worked for me: [https://github.com/microsoft/WSL/discussions/4176#discussioncomment-831817](https://github.com/microsoft/WSL/discussions/4176#discussioncomment-831817)   \
 But just once, after PC restart it doesn’t work anymore, I tried the last answer in that thread — didn’t make a trick.
+This is related https://github.com/microsoft/WSL/issues/3854#issuecomment-631356968
 
 This MySQL sleep thing worked for me! But just one time as well. 
 
