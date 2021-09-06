@@ -7,7 +7,8 @@ Windows 10 Home with Hyper-V enabled; WSL2; Docker Desktop with WSL2 support ena
 ### To achieve this (as far as my understanding):
 * WP and WPCLI should be sharing the same volume, and the same network
 * I need to pass the same variables to WPCLI as to WP (changes from March 2021 [here](https://hub.docker.com/_/wordpress)) 
-* Ubuntu user has to be specified for WPCLI [https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml](https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml)   
+* The IP address that WSL uses changes whenever the computer is restarted. 
+* Ubuntu user has to be specified for WPCLI, www-data for WP and www-data user for WPCLI have different ids [https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml](https://www.buzzphp.com/posts/how-to-run-wp-cli-in-docker-composeyml)   
 ### Result so far:
 ![unnamed](https://user-images.githubusercontent.com/5646904/132088875-1847fec1-cf75-4260-bf3a-1c5883b644d2.png)
 $ docker-compose up -d 
