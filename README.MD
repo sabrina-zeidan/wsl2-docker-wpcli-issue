@@ -51,3 +51,5 @@ This MySQL sleep thing worked for me! But just one time as well.
 
 [https://question-it.com/questions/3371307/kak-zapustit-wp-cli-v-docker-composeyml](https://question-it.com/questions/3371307/kak-zapustit-wp-cli-v-docker-composeyml) 
 
+UPD: about making WSL2 communicate with Windows installs https://anchor.host/local-lightning-and-upgrading-to-wsl2/
+
