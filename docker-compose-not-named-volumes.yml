@@ -40,7 +40,7 @@ services:
       - db
       - wordpress
     image: wordpress:cli
-    user: www-data
+    # user: www-data 
     volumes:
       - ./:/var/www/html/
     environment:
